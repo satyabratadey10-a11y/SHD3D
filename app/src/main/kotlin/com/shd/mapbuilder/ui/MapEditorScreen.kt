@@ -3,7 +3,7 @@ package com.shd.mapbuilder.ui
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.AutoAwesome
+import androidx.compose.material.icons.filled.Build
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -40,7 +40,7 @@ fun MapEditorScreen(viewModel: MapViewModel = viewModel()) {
             containerColor = Color(0xFF7C3AED),
             modifier = Modifier.align(Alignment.BottomEnd).padding(24.dp)
         ) {
-            Icon(Icons.Default.AutoAwesome, contentDescription = "AI Assist", tint = Color.White)
+            Icon(Icons.Default.Build, contentDescription = "AI Assist", tint = Color.White)
         }
 
         if (bakeProgress >= 0f) {
